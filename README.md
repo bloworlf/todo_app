@@ -3,7 +3,7 @@ Todo is an android app that allows building a todo list and basic todo items man
 
 Submitted by: **Mathurin Bloworlf**
 
-Time spent: **0.5** hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
@@ -15,22 +15,23 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
-* [ ] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
+* [X] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
+* [X] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
 * [ ] Add support for completion due dates for todo items (and display within listview item)
-* [ ] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
+* [X] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
 * [ ] Add support for selecting the priority of each todo item (and display in listview item)
-* [ ] Tweak the style improving the UI / UX, play with colors, images or backgrounds
+* [X] Tweak the style improving the UI / UX, play with colors, images or backgrounds
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [X] Added a search bar which suggest data from database as we type
+* [X] Added a floating button to add new data instead of an edittext and a button at the bottom of the activity
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-[Link to Video Walkthrough](https://www.dropbox.com/s/pdovxco5mxffnrz/2018-06-24-23-20-11.mp4?dl=0)
+[Link to Video Walkthrough](https://www.dropbox.com/s/wk118vujxptqgh5/todo_.mp4?dl=0)
 
 ## Project Analysis
 
@@ -47,7 +48,7 @@ The 'convertView' is the old view to be reused. When scrolling and loading new d
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Trying to fit some features to Android API lower than 21... still haven't fixed that. 
 
 ## License
 
